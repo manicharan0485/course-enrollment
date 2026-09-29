@@ -2,13 +2,15 @@
 .env
 .env.local
 .env.*.local
+.env.*
+!.env.example
 
 # Uploaded Files
-uploads/
-!uploads/.gitkeep
+/uploads/
+!/uploads/.gitkeep
 
 # Logs
-logs/
+/logs/
 *.log
 
 # IDE
@@ -37,3 +39,10 @@ tmp/
 # OS Generated files
 .DS_Store
 ehthumbs.db
+
+/course-enrollment/
+.env
+.env.*
+!.env.example
+/uploads/
+/logs/
