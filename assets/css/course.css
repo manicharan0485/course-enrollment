@@ -1,0 +1,358 @@
+/* ================================================
+   Courses Page - Updated to Match Dashboard Design
+   White BG, Black Font, Orange Accents
+   ================================================ */
+
+/* Override dark theme for courses page */
+body {
+    background: #F8FAFC;
+}
+
+/* ================================================
+   Courses Grid
+   ================================================ */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.course-card {
+    background: white;
+    border-radius: 12px;
+    overflow-y: auto;
+    border: 1px solid #E2E8F0;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(255, 107, 61, 0.15);
+    border-color: #FF6B3D;
+}
+
+/* Course Image/Header */
+.course-card > div:first-child {
+    height: 200px;
+    background: linear-gradient(135deg, #FF6B3D, #FF8A5C);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-card > div:first-child i {
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Course Content */
+.course-card > div:last-child {
+    padding: 1.5rem;
+}
+
+.course-card h3 {
+    color: #FF6B3D;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.course-card p {
+    color: #64748B;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Fees Display */
+.course-card > div:last-child > div:first-of-type {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #F8FAFC;
+    border-radius: 8px;
+}
+
+.course-card > div:last-child > div:first-of-type > div {
+    flex: 1;
+}
+
+.course-card > div:last-child > div:first-of-type > div p:first-child {
+    color: #64748B;
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+}
+
+.course-card > div:last-child > div:first-of-type > div p:last-child {
+    color: #FF6B3D;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Apply Button Area */
+.course-card > div:last-child > div:last-of-type,
+.course-card > div:last-child > form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.course-card button,
+.course-card .btn {
+    flex: 1;
+    padding: 0.875rem;
+    background: linear-gradient(135deg, #FF6B3D, #FF8A5C);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.course-card button:hover,
+.course-card .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 107, 61, 0.3);
+}
+
+.course-card button:disabled {
+    background: #E2E8F0;
+    color: #94A3B8;
+    cursor: not-allowed;
+    border: 1px solid #CBD5E1;
+}
+
+.course-card button:disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/* ================================================
+   Alert Messages
+   ================================================ */
+.alert {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.alert-success {
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid #10B981;
+    color: #10B981;
+}
+
+.alert-error {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid #EF4444;
+    color: #EF4444;
+}
+
+/* ================================================
+   Empty State
+   ================================================ */
+.card {
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card-content {
+    padding: 2rem;
+}
+
+.card-content > div {
+    text-align: center;
+    padding: 3rem;
+    color: #64748B;
+}
+
+.card-content > div i {
+    font-size: 5rem;
+    opacity: 0.3;
+    margin-bottom: 1rem;
+    color: #CBD5E1;
+}
+
+.card-content > div h2 {
+    color: #1E293B;
+    margin-bottom: 0.5rem;
+}
+
+.card-content > div p {
+    color: #64748B;
+    margin: 0;
+}
+
+/* ================================================
+   Welcome Section
+   ================================================ */
+.welcome-section {
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.welcome-content h1 {
+    color: #1E293B;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.welcome-content h1 i {
+    color: #FF6B3D;
+}
+
+.welcome-content p {
+    color: #64748B;
+    margin: 0;
+}
+
+.welcome-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+/* ================================================
+   Buttons
+   ================================================ */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #FF6B3D, #FF8A5C);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 107, 61, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 61, 0.4);
+}
+
+.btn-secondary {
+    background: white;
+    color: #1E293B;
+    border: 1px solid #E2E8F0;
+}
+
+.btn-secondary:hover {
+    background: #F8FAFC;
+    border-color: #FF6B3D;
+    color: #FF6B3D;
+}
+
+/* ================================================
+   Search Bar (if in top-bar)
+   ================================================ */
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+}
+
+.search-bar i {
+    color: #94A3B8;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    color: #1E293B;
+    font-size: 0.95rem;
+    width: 100%;
+}
+
+.search-bar input::placeholder {
+    color: #94A3B8;
+}
+
+/* ================================================
+   Mobile Responsive
+   ================================================ */
+@media (max-width: 768px) {
+    .courses-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .welcome-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+    
+    .welcome-actions {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .welcome-actions .btn {
+        width: 100%;
+    }
+}
+
+/* ================================================
+   Additional Course Card Variations
+   ================================================ */
+
+/* When course is already applied */
+.course-card button[disabled] {
+    background: #F1F5F9;
+    color: #64748B;
+    border: 1px solid #E2E8F0;
+}
+
+/* Payment button next to disabled button */
+.course-card .btn-primary:not(button) {
+    background: linear-gradient(135deg, #FF6B3D, #FF8A5C);
+    color: white;
+}
+
+/* Icon in course header */
+.course-card > div:first-child::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.2), transparent);
+}

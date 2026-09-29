@@ -1,0 +1,951 @@
+[10-Feb-2026 04:50:43 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_ac31717f82903e7cd5a8474dd3ba2d62, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 3
+[10-Feb-2026 04:50:43 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 3
+[10-Feb-2026 04:58:18 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_24cb05b1be5bbc617782fd2702aedf8e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 3
+[10-Feb-2026 04:58:18 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 3
+[10-Feb-2026 04:58:18 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/includes/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/includes/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/index.php(9): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/includes/database.php on line 11
+[10-Feb-2026 05:00:40 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_24cb05b1be5bbc617782fd2702aedf8e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 3
+[10-Feb-2026 05:00:40 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 3
+[10-Feb-2026 05:00:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_24cb05b1be5bbc617782fd2702aedf8e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 3
+[10-Feb-2026 05:00:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 3
+[10-Feb-2026 05:04:03 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/includes/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/includes/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/index.php(9): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/includes/database.php on line 11
+[10-Feb-2026 05:04:04 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/includes/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/includes/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/index.php(9): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/includes/database.php on line 11
+[16-Feb-2026 01:06:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home4/indoeuro/public_html/course-enrollment/login.php:31
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/login.php on line 31
+[16-Feb-2026 01:06:58 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home4/indoeuro/public_html/course-enrollment/login.php:31
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/login.php on line 31
+[16-Feb-2026 01:15:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home4/indoeuro/public_html/course-enrollment/login.php:31
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/login.php on line 31
+[16-Feb-2026 01:15:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home4/indoeuro/public_html/course-enrollment/login.php:31
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/login.php on line 31
+[16-Feb-2026 01:17:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home4/indoeuro/public_html/course-enrollment/login.php:31
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/login.php on line 31
+[16-Feb-2026 01:17:21 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home4/indoeuro/public_html/course-enrollment/login.php:31
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/login.php on line 31
+[16-Feb-2026 01:26:35 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home4/indoeuro/public_html/course-enrollment/login.php:31
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/login.php on line 31
+[16-Feb-2026 02:17:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on int in /home4/indoeuro/public_html/course-enrollment/login.php:31
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/login.php on line 31
+[16-Feb-2026 02:31:26 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 02:31:29 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 02:31:30 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 02:31:30 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 02:31:31 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 02:32:07 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 02:32:19 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_a722dc5de02f50f59dc6578632db49b9, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:32:19 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:32:19 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[16-Feb-2026 02:32:56 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_a722dc5de02f50f59dc6578632db49b9, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:32:56 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:32:56 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[16-Feb-2026 02:32:58 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_a722dc5de02f50f59dc6578632db49b9, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:32:58 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:32:58 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[16-Feb-2026 02:33:01 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_a722dc5de02f50f59dc6578632db49b9, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:33:01 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:33:01 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[16-Feb-2026 02:34:47 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_a722dc5de02f50f59dc6578632db49b9, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:34:47 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[16-Feb-2026 02:34:47 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[16-Feb-2026 22:52:36 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 22:53:34 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 22:56:31 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 22:56:34 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 22:56:40 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 22:56:41 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 22:56:49 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 22:59:32 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 23:32:49 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 23:32:51 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 23:33:00 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(2): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 23:33:17 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'indoeuro_course...')
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(6): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 23:35:29 America/Boise] PHP Warning:  Undefined variable $username in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 23:35:29 America/Boise] PHP Warning:  Undefined variable $database in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 23:35:29 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in /home4/indoeuro/public_html/course-enrollment/config/database.php:11
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/config/database.php(11): mysqli->__construct('localhost', NULL, Object(SensitiveParameterValue), NULL)
+#1 /home4/indoeuro/public_html/course-enrollment/upload-documents.php(6): require_once('/home4/indoeuro...')
+#2 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/config/database.php on line 11
+[16-Feb-2026 23:42:17 America/Boise] Payment submission received:
+[16-Feb-2026 23:42:17 America/Boise] User ID: 15
+[16-Feb-2026 23:42:17 America/Boise] Application ID: 21
+[16-Feb-2026 23:42:17 America/Boise] Payment Type: registration
+[16-Feb-2026 23:42:17 America/Boise] Amount: 500.00
+[16-Feb-2026 23:42:17 America/Boise] File uploaded successfully: uploads/payments/payment_15_1771310537.jpeg
+[16-Feb-2026 23:42:17 America/Boise] Payment inserted successfully! ID: 22
+[16-Feb-2026 23:51:53 America/Boise] Payment submission received:
+[16-Feb-2026 23:51:53 America/Boise] User ID: 15
+[16-Feb-2026 23:51:53 America/Boise] Application ID: 21
+[16-Feb-2026 23:51:53 America/Boise] Payment Type: program
+[16-Feb-2026 23:51:53 America/Boise] Amount: 2000.00
+[16-Feb-2026 23:51:53 America/Boise] File uploaded successfully: uploads/payments/payment_15_1771311113.jpeg
+[16-Feb-2026 23:51:53 America/Boise] Payment inserted successfully! ID: 23
+[18-Feb-2026 05:06:58 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:06:58 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:06:58 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:08:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:42 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:08:44 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:44 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:44 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:08:46 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:46 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:46 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:08:47 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:47 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:47 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:08:47 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:47 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:47 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:08:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:49 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:08:51 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:51 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:51 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:08:54 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:54 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:08:54 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:09:04 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:09:04 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:09:04 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:09:11 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:09:11 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:09:11 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:09:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_c1912c15dd6170af9aa862f2aee276d4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:09:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:09:14 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:21:06 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_b89aa30dd0b324664b47f81a739be70c, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[18-Feb-2026 05:21:06 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[18-Feb-2026 05:21:06 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[18-Feb-2026 05:21:06 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[18-Feb-2026 05:21:06 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[18-Feb-2026 05:21:32 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_b89aa30dd0b324664b47f81a739be70c, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[18-Feb-2026 05:21:32 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[18-Feb-2026 05:21:32 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[18-Feb-2026 05:21:32 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[18-Feb-2026 05:21:32 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[18-Feb-2026 05:22:30 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_b89aa30dd0b324664b47f81a739be70c, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[18-Feb-2026 05:22:30 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[18-Feb-2026 05:22:30 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[18-Feb-2026 05:22:30 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[18-Feb-2026 05:22:30 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[18-Feb-2026 05:31:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_b89aa30dd0b324664b47f81a739be70c, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:31:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:31:49 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[18-Feb-2026 05:31:52 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_b89aa30dd0b324664b47f81a739be70c, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:31:52 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[18-Feb-2026 05:31:52 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 01:11:31 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 01:11:31 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 01:11:31 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 01:11:40 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 01:11:40 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 01:11:40 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 01:11:44 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 01:11:44 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 01:11:44 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 02:20:06 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:06 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:06 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 02:20:09 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:09 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:09 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 02:20:12 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:12 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:12 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 02:20:29 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:29 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:29 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 02:20:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:20:42 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 02:21:20 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:21:20 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:21:20 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 3
+[19-Feb-2026 02:24:40 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0107faafc8c35e5ce303fdd8a6d21227, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:24:40 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:24:40 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 02:24:48 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d53125fe69768b7ff1a0b296ef5ceca4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:24:48 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:24:48 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 02:25:08 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9d3a25aa7e3508e68ce9257ae713d825, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:25:08 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:25:08 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 02:25:45 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_f86150a3bb71e91403df54c83e8a3631, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:25:45 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:25:45 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 02:31:50 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_dd859a1398cade04f83115862fa897ac, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:31:50 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 02:31:50 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 03:24:22 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_8fbba21f49227d55981d039fe5400de0, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 03:24:22 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 03:24:22 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 03:28:16 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_cfb7092d162ee2242599e3840afadb2d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 03:28:16 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 03:28:16 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 03:29:13 America/Boise] Payment submission received:
+[19-Feb-2026 03:29:13 America/Boise] User ID: 7
+[19-Feb-2026 03:29:13 America/Boise] Application ID: 18
+[19-Feb-2026 03:29:13 America/Boise] Payment Type: registration
+[19-Feb-2026 03:29:13 America/Boise] Amount: 500.00
+[19-Feb-2026 03:29:13 America/Boise] File uploaded successfully: uploads/payments/payment_7_1771496953.jpg
+[19-Feb-2026 03:29:13 America/Boise] Payment inserted successfully! ID: 24
+[19-Feb-2026 03:30:22 America/Boise] Payment submission received:
+[19-Feb-2026 03:30:22 America/Boise] User ID: 7
+[19-Feb-2026 03:30:22 America/Boise] Application ID: 18
+[19-Feb-2026 03:30:22 America/Boise] Payment Type: program
+[19-Feb-2026 03:30:22 America/Boise] Amount: 2000.00
+[19-Feb-2026 03:30:22 America/Boise] File uploaded successfully: uploads/payments/payment_7_1771497022.jpg
+[19-Feb-2026 03:30:22 America/Boise] Payment inserted successfully! ID: 25
+[19-Feb-2026 03:53:06 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_bc84dbaaa61c76c74c502a645269d3be, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 03:53:06 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 03:53:06 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 04:17:11 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_a0e411ae983f08edaa4c963594576234, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 04:17:11 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 04:17:11 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 04:55:31 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_3c7fc9d95ccbc64dfbbea78b720148df, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[19-Feb-2026 04:55:31 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[19-Feb-2026 04:55:31 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[19-Feb-2026 04:55:31 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[19-Feb-2026 04:55:31 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[19-Feb-2026 04:55:34 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_3c7fc9d95ccbc64dfbbea78b720148df, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[19-Feb-2026 04:55:34 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[19-Feb-2026 04:55:34 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[19-Feb-2026 04:55:34 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[19-Feb-2026 04:55:34 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[19-Feb-2026 22:24:56 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9749f3a3d657c9ea07de0bcb2b685e62, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:24:56 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:24:56 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 22:29:10 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_68250888413c1be23a655a9c31f398d3, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:29:10 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:29:10 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 22:32:58 America/Boise] Application not found - ID: 0, User: 16
+[19-Feb-2026 22:35:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1bd394ec63c9038470f9a1ba002ab81f, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:35:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:35:24 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 22:39:12 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_91ded6fd82a200e3be3de7b928f16161, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:39:12 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:39:12 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 22:42:01 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_b07892832a9f93cb8044103b671966da, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:42:01 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:42:01 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 22:44:58 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_f173e0ead4975b337bb971ffca3a2489, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:44:58 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:44:58 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 22:47:23 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_66c80906f119c779bf8594aebe4eddf9, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:47:23 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[19-Feb-2026 22:47:23 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[19-Feb-2026 22:50:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_178f97fa3674aa46eacb2b2347c1cda8, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[19-Feb-2026 22:50:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[19-Feb-2026 22:50:24 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[19-Feb-2026 22:50:24 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[19-Feb-2026 22:50:24 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[20-Feb-2026 05:32:06 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_afbd1af71a115bc5b83c2b8a87300829, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[20-Feb-2026 05:32:06 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[20-Feb-2026 05:32:06 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[20-Feb-2026 05:53:25 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[20-Feb-2026 05:53:25 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[20-Feb-2026 05:53:25 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[20-Feb-2026 05:53:25 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/indoeuro/public_html/course-enrollment/admin-applications.php:13) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 20
+[20-Feb-2026 05:53:29 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[20-Feb-2026 05:53:29 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[20-Feb-2026 05:53:29 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[20-Feb-2026 05:53:29 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/indoeuro/public_html/course-enrollment/admin-applications.php:13) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 20
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/indoeuro/public_html/course-enrollment/admin-applications.php:13) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 20
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/indoeuro/public_html/course-enrollment/admin-applications.php:13) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 20
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[20-Feb-2026 05:53:30 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/indoeuro/public_html/course-enrollment/admin-applications.php:13) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 20
+[20-Feb-2026 05:53:31 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[20-Feb-2026 05:53:31 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[20-Feb-2026 05:53:31 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[20-Feb-2026 05:53:31 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/indoeuro/public_html/course-enrollment/admin-applications.php:13) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 20
+[21-Feb-2026 04:23:52 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "LOG_PATH" in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:382
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/admin-applications.php(354): writeLog(Array)
+#1 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 382
+[21-Feb-2026 04:24:00 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "LOG_PATH" in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:382
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/admin-applications.php(354): writeLog(Array)
+#1 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 382
+[21-Feb-2026 04:24:01 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "LOG_PATH" in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:382
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/admin-applications.php(354): writeLog(Array)
+#1 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 382
+[21-Feb-2026 04:24:02 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "LOG_PATH" in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:382
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/admin-applications.php(354): writeLog(Array)
+#1 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 382
+[21-Feb-2026 04:24:02 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "LOG_PATH" in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:382
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/admin-applications.php(354): writeLog(Array)
+#1 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 382
+[21-Feb-2026 04:24:03 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "LOG_PATH" in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:382
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/admin-applications.php(354): writeLog(Array)
+#1 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 382
+[21-Feb-2026 04:24:12 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "LOG_PATH" in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:382
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/admin-applications.php(354): writeLog(Array)
+#1 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 382
+[21-Feb-2026 04:24:48 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "LOG_PATH" in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:382
+Stack trace:
+#0 /home4/indoeuro/public_html/course-enrollment/admin-applications.php(354): writeLog(Array)
+#1 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 382
+[21-Feb-2026 06:06:00 America/Boise] PHP Parse error:  Unclosed '{' on line 62 in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 455
+[21-Feb-2026 06:21:08 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:41) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:21:11 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:41) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:21:14 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:41) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:21:16 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:41) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:21:17 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:41) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:21:19 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:41) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:24:09 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:48) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:25:11 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:48) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:32:28 America/Boise] 2026-02-21 06:32:28 | Email to manicharan.ravi999@gmail.com | Subject: Update on Your Application | Status: SENT
+[21-Feb-2026 06:32:28 America/Boise] 2026-02-21 06:32:28 | Email to manitester143@gmail.com | Subject: Application Rejected: Digital Marketing Strategy | Status: SENT
+[21-Feb-2026 06:32:38 America/Boise] 2026-02-21 06:32:38 | Email to manicharan.ravi999@gmail.com | Subject: You are now enrolled in Digital Marketing Strategy | Status: SENT
+[21-Feb-2026 06:32:38 America/Boise] 2026-02-21 06:32:38 | Email to manitester143@gmail.com | Subject: New Student Enrolled: Digital Marketing Strategy | Status: SENT
+[21-Feb-2026 06:37:18 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:48) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:37:21 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:48) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:37:34 America/Boise] PHP Fatal error:  Cannot redeclare sendEmail() (previously declared in /home4/indoeuro/public_html/course-enrollment/admin-applications.php:41) in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 88
+[21-Feb-2026 06:42:28 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_db1b136e9dc9e5198196a738813931b8, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[21-Feb-2026 06:42:28 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[21-Feb-2026 06:42:28 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[21-Feb-2026 06:50:01 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:01 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:08 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:08 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:08 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:08 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:13 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:13 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:13 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:13 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:16 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:50:16 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:53:55 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:53:55 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:27 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:27 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:28 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:28 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:30 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:54:30 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:04 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:04 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:10 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:10 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:13 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:13 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:18 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:18 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:18 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:18 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:21 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 06:59:21 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:17 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:17 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:25 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:25 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:30 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:30 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:30 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:30 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:33 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:04:33 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:08:34 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:08:34 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:08:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:08:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:08:44 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:08:44 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:09:33 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:09:33 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:09:33 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:09:33 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:09:38 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:09:38 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:01 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:01 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:07 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:07 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:09 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:09 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:13 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:13 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:12:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:16 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:16 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:26 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:26 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:26 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:26 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:31 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:31 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:31 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:19:31 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:32 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:32 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:38 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:38 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:39 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:39 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:44 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:44 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:44 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:44 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:47 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:28:47 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:29:11 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_abfd1132558b56755e7a9c4ebd0ea457, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[21-Feb-2026 07:29:11 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Feb-2026 22:18:37 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_0b9f149cea8876deefd10a55f55abf04, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[23-Feb-2026 22:18:37 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[23-Feb-2026 22:18:37 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[25-Feb-2026 03:21:37 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_a8af74cf81fc6c82e7a52b0a35999b49, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[25-Feb-2026 03:21:37 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[25-Feb-2026 03:25:29 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_a8af74cf81fc6c82e7a52b0a35999b49, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[25-Feb-2026 03:25:29 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[25-Feb-2026 03:25:29 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[25-Feb-2026 03:27:30 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_64a1340221d6dd085a0de49e519da93e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[25-Feb-2026 03:27:30 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[25-Feb-2026 03:27:30 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[25-Feb-2026 03:28:08 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_06e0900c2313c15ae6158ddeea86e1c9, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[25-Feb-2026 03:28:08 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[28-Feb-2026 03:29:30 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_f74d56d9d0bc2919058a49962ba332c2, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[28-Feb-2026 03:29:30 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[28-Feb-2026 03:29:30 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[28-Feb-2026 03:47:36 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_39851c147e0393324af703afa71856b5, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[28-Feb-2026 03:47:36 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[28-Feb-2026 03:47:36 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[28-Feb-2026 03:47:36 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[28-Feb-2026 03:47:36 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[28-Feb-2026 03:47:58 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_39851c147e0393324af703afa71856b5, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[28-Feb-2026 03:47:58 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[28-Feb-2026 03:47:58 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[28-Feb-2026 03:47:58 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[28-Feb-2026 03:47:58 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[28-Feb-2026 04:09:59 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_39851c147e0393324af703afa71856b5, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[28-Feb-2026 04:09:59 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[28-Feb-2026 04:09:59 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[01-Mar-2026 23:35:26 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_88521f6c9d8d3e850a39965a9304817c, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[01-Mar-2026 23:35:26 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[01-Mar-2026 23:35:26 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[01-Mar-2026 23:39:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9277f71af3faa95bb8e3faf8e1878cfb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[01-Mar-2026 23:39:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:06:35 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:06:35 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:06:53 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:06:53 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:07 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:07 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:08 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:08 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:21 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:21 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:21 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:21 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:07:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:33:39 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:33:39 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:33:39 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:33:39 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:33:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:33:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:35:57 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:35:57 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:36:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function isAdminLoggedIn() in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 6
+[09-Mar-2026 04:36:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function isAdminLoggedIn() in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 6
+[09-Mar-2026 04:36:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function isAdminLoggedIn() in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 6
+[09-Mar-2026 04:38:19 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[09-Mar-2026 04:38:19 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[09-Mar-2026 04:38:19 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[09-Mar-2026 04:38:19 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[09-Mar-2026 04:38:19 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[09-Mar-2026 04:38:25 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[09-Mar-2026 04:38:25 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[09-Mar-2026 04:38:25 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[09-Mar-2026 04:38:25 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[09-Mar-2026 04:38:25 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[09-Mar-2026 04:41:20 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7a091631bbb562a8a38863ab670cb5fb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:41:20 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 04:45:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function isAdminLoggedIn() in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 6
+[09-Mar-2026 04:45:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function isAdminLoggedIn() in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 6
+[09-Mar-2026 04:45:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function isAdminLoggedIn() in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 6
+[09-Mar-2026 04:45:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function isAdminLoggedIn() in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 6
+[09-Mar-2026 04:49:56 America/Boise] PHP Warning:  require_once(/home4/indoeuro/public_html/course-enrollment/../config/config.php): Failed to open stream: No such file or directory in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 04:49:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/indoeuro/public_html/course-enrollment/../config/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 04:49:58 America/Boise] PHP Warning:  require_once(/home4/indoeuro/public_html/course-enrollment/../config/config.php): Failed to open stream: No such file or directory in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 04:49:58 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/indoeuro/public_html/course-enrollment/../config/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 04:49:59 America/Boise] PHP Warning:  require_once(/home4/indoeuro/public_html/course-enrollment/../config/config.php): Failed to open stream: No such file or directory in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 04:49:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/indoeuro/public_html/course-enrollment/../config/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 04:51:27 America/Boise] PHP Warning:  require_once(/home4/indoeuro/public_html/course-enrollment/../config/config.php): Failed to open stream: No such file or directory in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 04:51:27 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/indoeuro/public_html/course-enrollment/../config/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/indoeuro/public_html/course-enrollment/admin-documents.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 05:53:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_183c8047a395f47ab0eb4c5ea9bf2151, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:53:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:57:09 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 05:57:09 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 05:57:09 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:57:09 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:57:16 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 05:57:16 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 05:57:17 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:57:17 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:59:47 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:59:47 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:59:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 05:59:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 05:59:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 05:59:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 06:00:19 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 06:00:19 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 06:00:22 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 06:00:22 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[09-Mar-2026 06:00:22 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d92449ddb3639af342cae12b0b1dc5cf, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[09-Mar-2026 06:00:22 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:55:56 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[23-Mar-2026 03:55:56 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[23-Mar-2026 03:55:57 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:55:57 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:56:07 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:56:07 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:56:07 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:56:07 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:56:11 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[23-Mar-2026 03:56:11 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[23-Mar-2026 03:56:12 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:56:12 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:56:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[23-Mar-2026 03:56:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-documents.php on line 2
+[23-Mar-2026 03:56:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 03:56:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:08:19 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:08:19 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:35:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:35:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:35:49 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:35:49 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:35:49 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:35:52 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:35:52 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:35:52 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:35:52 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:35:52 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:37:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_5ffbe0336267d9a6b03a51a93d05b68a, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:37:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:37:14 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:37:14 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:37:14 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:37:16 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_5ffbe0336267d9a6b03a51a93d05b68a, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:37:16 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:37:16 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:37:16 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:37:16 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:43:07 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:43:07 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:43:07 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:43:07 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:43:07 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:43:09 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:43:09 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:43:09 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:43:09 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:43:09 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:43:11 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_92655cf1e00b1302e321ffcae77e2288, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:43:11 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:43:11 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:43:11 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:43:11 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:43:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_5ffbe0336267d9a6b03a51a93d05b68a, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:43:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:43:24 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:43:24 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:43:24 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:43:26 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_5ffbe0336267d9a6b03a51a93d05b68a, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[23-Mar-2026 04:43:26 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[23-Mar-2026 04:43:26 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[23-Mar-2026 04:45:04 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_b9163113681cbdce80aaf26d1677b528, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[23-Mar-2026 04:45:04 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[23-Mar-2026 04:45:04 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[23-Mar-2026 04:46:23 America/Boise] Payment submission received:
+[23-Mar-2026 04:46:23 America/Boise] User ID: 14
+[23-Mar-2026 04:46:23 America/Boise] Application ID: 24
+[23-Mar-2026 04:46:23 America/Boise] Payment Type: registration
+[23-Mar-2026 04:46:23 America/Boise] Amount: 500.00
+[23-Mar-2026 04:46:23 America/Boise] File uploaded successfully: uploads/payments/payment_14_1774262783.pdf
+[23-Mar-2026 04:46:23 America/Boise] Payment inserted successfully! ID: 26
+[23-Mar-2026 04:46:32 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6f8f9ae44b5eb7aa560ff57d4e02c135, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[23-Mar-2026 04:46:32 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[23-Mar-2026 04:46:32 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[23-Mar-2026 04:46:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:46:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:46:48 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:46:48 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:46:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:46:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:47:00 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:00 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:00 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:47:00 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:47:00 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:47:02 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:02 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:02 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:47:02 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:47:02 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:47:20 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:20 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:20 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:47:20 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:47:20 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:47:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:24 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:47:24 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:47:24 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:47:38 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:38 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/get-documents.php on line 10
+[23-Mar-2026 04:47:38 America/Boise] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 2
+[23-Mar-2026 04:47:38 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/config/config.php on line 5
+[23-Mar-2026 04:47:38 America/Boise] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/indoeuro/public_html/course-enrollment/includes/functions.php on line 191
+[23-Mar-2026 04:56:33 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:33 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:39 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:39 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:39 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:39 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:46 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:46 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:47 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:47 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9a3625f222ba7b4af8c8ea77214ea97d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:56:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:58:31 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_ae22d66d1ab32395211ab17c4e0e5b3a, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-Mar-2026 04:58:31 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[26-Mar-2026 03:15:10 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_65490b9645e3c0618887da7d07b2af25, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[26-Mar-2026 03:15:10 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 02:51:34 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 02:51:34 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 02:51:43 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 02:51:43 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 02:51:44 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 02:51:44 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:04:39 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:04:39 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:04:46 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:04:46 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:04:47 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:04:47 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:04:50 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:04:50 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:05:16 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:05:16 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:05:16 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6a2c6ec10b226cd64ba602bd841658eb, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-May-2026 03:05:16 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:33:15 America/Boise] Payment submission received:
+[04-May-2026 00:33:15 America/Boise] User ID: 15
+[04-May-2026 00:33:15 America/Boise] Application ID: 25
+[04-May-2026 00:33:15 America/Boise] Payment Type: registration
+[04-May-2026 00:33:15 America/Boise] Amount: 500.00
+[04-May-2026 00:33:15 America/Boise] File uploaded successfully: uploads/payments/payment_15_1777876395.jpg
+[04-May-2026 00:33:15 America/Boise] Payment inserted successfully! ID: 27
+[04-May-2026 00:35:02 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:02 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:13 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:13 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:37 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:37 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:37 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:37 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:39 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:35:39 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:37:50 America/Boise] Payment submission received:
+[04-May-2026 00:37:50 America/Boise] User ID: 15
+[04-May-2026 00:37:50 America/Boise] Application ID: 25
+[04-May-2026 00:37:50 America/Boise] Payment Type: program
+[04-May-2026 00:37:50 America/Boise] Amount: 2000.00
+[04-May-2026 00:37:50 America/Boise] File uploaded successfully: uploads/payments/payment_15_1777876670.jpg
+[04-May-2026 00:37:50 America/Boise] Payment inserted successfully! ID: 28
+[04-May-2026 00:39:00 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:39:00 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:39:07 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:39:07 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:39:07 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:39:07 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:45:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_9f8aba49e99dfdb0da5555dd9618438d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[04-May-2026 00:45:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[04-May-2026 00:45:24 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[04-May-2026 00:47:12 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:12 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:45 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:45 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:45 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:45 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:51 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_1ee7b5ffffc68d3026c0b7437648acd7, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[04-May-2026 00:47:51 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:31 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6559c3bc7cbc79b70897140ed3a8a34e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:31 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:36 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6559c3bc7cbc79b70897140ed3a8a34e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:36 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:37 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6559c3bc7cbc79b70897140ed3a8a34e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:37 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:45 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6559c3bc7cbc79b70897140ed3a8a34e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:45 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:46 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6559c3bc7cbc79b70897140ed3a8a34e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:46 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_6559c3bc7cbc79b70897140ed3a8a34e, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[05-May-2026 02:19:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-May-2026 06:09:30 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_538902108e482914f8a5dd86eef1f83d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[23-May-2026 06:09:30 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[26-May-2026 04:33:38 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_5739d22f609033429c96a8a7d10e425a, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[26-May-2026 04:33:38 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[26-May-2026 04:33:38 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[26-May-2026 04:38:51 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7e4ca36453e6e756f0a668e8785352db, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[26-May-2026 04:38:51 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[26-May-2026 04:38:51 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[26-May-2026 05:40:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_ed28124034b05489995734e8624a34ec, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[26-May-2026 05:40:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[26-May-2026 05:40:42 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[27-May-2026 05:09:18 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_ff15f80413fa8fff3abf8311a18c31f6, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[27-May-2026 05:09:18 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[28-May-2026 22:38:21 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_bd6526c5923bf2a22c801705a7fa8229, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[28-May-2026 22:38:21 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[29-May-2026 01:18:13 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_bd6526c5923bf2a22c801705a7fa8229, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[29-May-2026 01:18:13 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[29-May-2026 08:32:46 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_103ee86ac79af3ed1c7f928001ae7ae6, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[29-May-2026 08:32:46 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[01-Jun-2026 03:47:15 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_701576235500edb201f6414229bfc483, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[01-Jun-2026 03:47:15 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[02-Jun-2026 00:02:32 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_7796e3e03632c83534ab8572ef77c71a, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[02-Jun-2026 00:02:32 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[02-Jun-2026 00:02:32 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[02-Jun-2026 00:17:48 America/Boise] Payment submission received:
+[02-Jun-2026 00:17:48 America/Boise] User ID: 17
+[02-Jun-2026 00:17:48 America/Boise] Application ID: 28
+[02-Jun-2026 00:17:48 America/Boise] Payment Type: registration
+[02-Jun-2026 00:17:48 America/Boise] Amount: 15000.00
+[02-Jun-2026 00:17:48 America/Boise] File uploaded successfully: uploads/payments/payment_17_1780381068.png
+[02-Jun-2026 00:17:48 America/Boise] Payment inserted successfully! ID: 29
+[02-Jun-2026 00:35:47 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_02ddf7f5e2aff2ddf3be9f42ba77fd35, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[02-Jun-2026 00:35:47 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[02-Jun-2026 00:36:05 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_02ddf7f5e2aff2ddf3be9f42ba77fd35, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[02-Jun-2026 00:36:05 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[02-Jun-2026 00:40:15 America/Boise] Payment submission received:
+[02-Jun-2026 00:40:15 America/Boise] User ID: 17
+[02-Jun-2026 00:40:15 America/Boise] Application ID: 28
+[02-Jun-2026 00:40:15 America/Boise] Payment Type: program
+[02-Jun-2026 00:40:15 America/Boise] Amount: 2000.00
+[02-Jun-2026 00:40:15 America/Boise] File uploaded successfully: uploads/payments/payment_17_1780382415.png
+[02-Jun-2026 00:40:15 America/Boise] Payment inserted successfully! ID: 30
+[02-Jun-2026 00:43:08 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_02ddf7f5e2aff2ddf3be9f42ba77fd35, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[02-Jun-2026 00:43:08 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[02-Jun-2026 00:46:18 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_d78b4775590f8f18824b7d18a899c1de, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[02-Jun-2026 00:46:18 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[02-Jun-2026 00:46:18 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8
+[02-Jun-2026 00:53:10 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_02ddf7f5e2aff2ddf3be9f42ba77fd35, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[02-Jun-2026 00:53:10 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 01:39:36 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_5d3b7339f4e27a214ab10858800cb2c4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 01:39:36 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 01:39:42 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_5d3b7339f4e27a214ab10858800cb2c4, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 01:39:42 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:14 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_96f2a466ea2bcd00ccf55a0ddbf819b3, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:14 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:23 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_96f2a466ea2bcd00ccf55a0ddbf819b3, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:23 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:24 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_96f2a466ea2bcd00ccf55a0ddbf819b3, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:24 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:48 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_96f2a466ea2bcd00ccf55a0ddbf819b3, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:48 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:49 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_96f2a466ea2bcd00ccf55a0ddbf819b3, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[03-Jun-2026 23:20:49 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[10-Aug-2026 00:51:00 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_eb08bc2e98d0d152dcca43ba787ceb3d, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[10-Aug-2026 00:51:00 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[10-Aug-2026 00:51:52 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_26e2696116f573a90cff1bd45fecd0dd, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[10-Aug-2026 00:51:52 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/admin-applications.php on line 2
+[10-Aug-2026 00:54:32 America/Boise] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php82/sess_26e2696116f573a90cff1bd45fecd0dd, O_RDWR) failed: No such file or directory (2) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[10-Aug-2026 00:54:32 America/Boise] PHP Warning:  session_start(): Failed to read session data: files (path: /var/cpanel/php/sessions/ea-php82) in /home4/indoeuro/public_html/course-enrollment/logout.php on line 2
+[10-Aug-2026 00:54:32 America/Boise] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/indoeuro/public_html/course-enrollment/logout.php on line 8

@@ -1,0 +1,685 @@
+/* ================================================
+   Payment Page - Updated to Match Dashboard Design
+   White BG, Black Font, Orange Accents
+   ================================================ */
+
+/* Override dark theme for payment page */
+.payment-page {
+    background: #F8FAFC;
+}
+
+/* ================================================
+   Payment Progress Tracker
+   ================================================ */
+.payment-progress {
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.progress-steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.progress-line {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #E2E8F0;
+    z-index: 1;
+}
+
+.progress-line-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #FF6B3D, #FF8A5C);
+    transition: width 0.5s ease;
+}
+
+.progress-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.step-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 3px solid #E2E8F0;
+    background: white;
+    color: #94A3B8;
+    transition: all 0.3s ease;
+}
+
+.progress-step.active .step-circle {
+    background: linear-gradient(135deg, #FF6B3D, #FF8A5C);
+    color: white;
+    border-color: #FF6B3D;
+    box-shadow: 0 4px 15px rgba(255, 107, 61, 0.3);
+    transform: scale(1.1);
+}
+
+.progress-step.completed .step-circle {
+    background: linear-gradient(135deg, #10B981, #34D399);
+    color: white;
+    border-color: #10B981;
+}
+
+.progress-step.locked .step-circle {
+    background: #F1F5F9;
+    color: #CBD5E1;
+    border-color: #E2E8F0;
+    opacity: 0.5;
+}
+
+.step-content {
+    text-align: center;
+    width: 100%;
+}
+
+.step-number {
+    font-size: 0.875rem;
+    color: #64748B;
+    margin-bottom: 0.25rem;
+}
+
+.step-title {
+    font-weight: 600;
+    color: #1E293B;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.step-subtitle {
+    font-size: 0.875rem;
+    color: #64748B;
+}
+
+.progress-step.active .step-title {
+    color: #FF6B3D;
+}
+
+.progress-step.completed .step-title {
+    color: #10B981;
+}
+
+/* Fee Display in Progress */
+.fee-display {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.fee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background: #F8FAFC;
+    border-radius: 8px;
+}
+
+.fee-label {
+    font-size: 0.875rem;
+    color: #64748B;
+}
+
+.fee-amount {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #1E293B;
+}
+
+.progress-step.active .fee-amount {
+    color: #FF6B3D;
+}
+
+.progress-step.completed .fee-amount {
+    color: #10B981;
+}
+
+/* Status Badges in Progress */
+.step-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.step-badge.paid {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10B981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.step-badge.ready {
+    background: rgba(255, 107, 61, 0.1);
+    color: #FF6B3D;
+    border: 1px solid rgba(255, 107, 61, 0.3);
+}
+
+.step-badge.pending {
+    background: rgba(100, 116, 139, 0.1);
+    color: #64748B;
+    border: 1px solid rgba(100, 116, 139, 0.3);
+}
+
+.step-badge.locked {
+    background: rgba(100, 116, 139, 0.05);
+    color: #94A3B8;
+    border: 1px solid rgba(100, 116, 139, 0.2);
+    opacity: 0.6;
+}
+
+/* ================================================
+   Payment Form Section - White Cards
+   ================================================ */
+.payment-form-section,
+.card {
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.payment-form-section h2,
+.card-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E2E8F0;
+    color: #1E293B;
+}
+
+.payment-form-section h2 i,
+.card-header h2 i {
+    color: #FF6B3D;
+    font-size: 1.5rem;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1E293B;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.875rem;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    color: #1E293B;
+    transition: all 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #FF6B3D;
+    box-shadow: 0 0 0 3px rgba(255, 107, 61, 0.1);
+}
+
+.form-group small {
+    display: block;
+    margin-top: 0.5rem;
+    color: #64748B;
+    font-size: 0.875rem;
+}
+
+/* Read-only Fields */
+.form-group.readonly input,
+.form-group input[readonly] {
+    background: #F8FAFC;
+    border-color: #E2E8F0;
+    cursor: not-allowed;
+    color: #64748B;
+}
+
+/* Amount Display */
+.amount-display {
+    padding: 1.5rem;
+    background: rgba(255, 107, 61, 0.05);
+    border: 2px solid rgba(255, 107, 61, 0.2);
+    border-radius: 12px;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.amount-display .label {
+    font-size: 0.875rem;
+    color: #64748B;
+    margin-bottom: 0.5rem;
+}
+
+.amount-display .amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FF6B3D;
+    line-height: 1;
+}
+
+/* ================================================
+   File Upload Area
+   ================================================ */
+.file-upload-area {
+    position: relative;
+    padding: 2rem;
+    border: 2px dashed #E2E8F0;
+    border-radius: 12px;
+    background: #F8FAFC;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.file-upload-area:hover {
+    border-color: #FF6B3D;
+    background: rgba(255, 107, 61, 0.05);
+}
+
+.file-upload-area.has-file {
+    border-color: #10B981;
+    background: rgba(16, 185, 129, 0.05);
+}
+
+.upload-icon {
+    font-size: 3rem;
+    color: #FF6B3D;
+    margin-bottom: 1rem;
+}
+
+.file-upload-area.has-file .upload-icon {
+    color: #10B981;
+}
+
+.upload-text {
+    color: #1E293B;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.upload-hint {
+    font-size: 0.875rem;
+    color: #64748B;
+}
+
+/* File Preview */
+.file-preview {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    display: none;
+}
+
+.file-preview.show {
+    display: block;
+}
+
+.file-preview img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.file-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background: #F8FAFC;
+    border-radius: 8px;
+}
+
+.file-name {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #1E293B;
+    font-weight: 500;
+}
+
+.file-name i {
+    color: #10B981;
+}
+
+.file-size {
+    font-size: 0.875rem;
+    color: #64748B;
+}
+
+.remove-file {
+    background: none;
+    border: none;
+    color: #EF4444;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.remove-file:hover {
+    background: rgba(239, 68, 68, 0.1);
+}
+
+/* ================================================
+   Payment History
+   ================================================ */
+.payment-history {
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.payment-history h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E2E8F0;
+    color: #1E293B;
+}
+
+.payment-history h3 i {
+    color: #FF6B3D;
+}
+
+.history-empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #64748B;
+}
+
+.history-empty i {
+    font-size: 3rem;
+    opacity: 0.3;
+    margin-bottom: 1rem;
+    display: block;
+    color: #94A3B8;
+}
+
+.payment-item,
+.user-item {
+    padding: 1.5rem;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.payment-item:hover,
+.user-item:hover {
+    background: white;
+    border-color: #FF6B3D;
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(255, 107, 61, 0.1);
+}
+
+.payment-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.payment-type {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #1E293B;
+}
+
+.payment-type i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #FF6B3D, #FF8A5C);
+    color: white;
+    border-radius: 8px;
+}
+
+.payment-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.detail-label {
+    font-size: 0.875rem;
+    color: #64748B;
+}
+
+.detail-value {
+    font-weight: 600;
+    color: #1E293B;
+}
+
+.detail-value.amount {
+    font-size: 1.25rem;
+    color: #10B981;
+}
+
+/* ================================================
+   Badges & Status
+   ================================================ */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.badge.pending {
+    background: rgba(245, 158, 11, 0.1);
+    color: #F59E0B;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge.completed,
+.badge.approved {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10B981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge.rejected {
+    background: rgba(239, 68, 68, 0.1);
+    color: #EF4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* ================================================
+   Success/Alert Messages
+   ================================================ */
+.alert {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.alert-success {
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid #10B981;
+    color: #10B981;
+}
+
+.alert-error {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid #EF4444;
+    color: #EF4444;
+}
+
+.alert-warning {
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid #F59E0B;
+    color: #F59E0B;
+}
+
+.success-message {
+    background: rgba(16, 185, 129, 0.05);
+    border: 2px solid rgba(16, 185, 129, 0.2);
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.success-message i {
+    font-size: 4rem;
+    color: #10B981;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.success-message h2 {
+    color: #10B981;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.success-message p {
+    color: #1E293B;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* ================================================
+   Buttons
+   ================================================ */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #FF6B3D, #FF8A5C);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 107, 61, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 61, 0.4);
+}
+
+.btn-secondary {
+    background: white;
+    color: #1E293B;
+    border: 1px solid #E2E8F0;
+}
+
+.btn-secondary:hover {
+    background: #F8FAFC;
+    border-color: #FF6B3D;
+    color: #FF6B3D;
+}
+
+/* ================================================
+   Mobile Responsive
+   ================================================ */
+@media (max-width: 768px) {
+    .progress-steps {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .progress-line {
+        display: none;
+    }
+    
+    .progress-step {
+        width: 100%;
+    }
+    
+    .step-circle {
+        width: 50px;
+        height: 50px;
+        font-size: 1.25rem;
+    }
+    
+    .amount-display .amount {
+        font-size: 2rem;
+    }
+    
+    .payment-details {
+        grid-template-columns: 1fr;
+    }
+    
+    .payment-form-section,
+    .payment-history,
+    .card {
+        padding: 1.5rem;
+    }
+}

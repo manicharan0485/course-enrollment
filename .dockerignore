@@ -1,0 +1,47 @@
+# Git
+.git
+.gitignore
+.github
+
+# Dependencies
+vendor/
+node_modules/
+composer.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads (keep structure, ignore files)
+uploads/**/*
+!uploads/.gitkeep
+!uploads/documents/.gitkeep
+!uploads/payments/.gitkeep
+
+# Cache
+.cache/
+tmp/
+
+# Build artifacts
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+.dockerignore

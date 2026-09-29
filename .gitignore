@@ -1,0 +1,39 @@
+# Environment Configuration
+.env
+.env.local
+.env.*.local
+
+# Uploaded Files
+uploads/
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# PHP
+vendor/
+composer.lock
+
+# Database Backups
+*.sql
+!database.sql
+!course_enrollment_updated.sql
+
+# Cache
+cache/
+tmp/
+
+# OS Generated files
+.DS_Store
+ehthumbs.db

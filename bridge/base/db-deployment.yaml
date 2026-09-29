@@ -1,0 +1,62 @@
+#! db-deployment.yaml
+# Generated code, do not edit
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: db
+    namespace: course-enrollment
+    labels:
+        com.docker.compose.project: course-enrollment
+        com.docker.compose.service: db
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            com.docker.compose.project: course-enrollment
+            com.docker.compose.service: db
+    strategy:
+        type: Recreate
+    template:
+        metadata:
+            labels:
+                com.docker.compose.project: course-enrollment
+                com.docker.compose.service: db
+                com.docker.compose.network.course-network: "true"
+        spec:
+            restartPolicy: unless-stopped
+            containers:
+                - name: course-enrollment-db
+                  image: mysql:8.0
+                  imagePullPolicy: IfNotPresent
+                  env:
+                    - name: MYSQL_DATABASE
+                      value: "course_enrollment"
+                    - name: MYSQL_PASSWORD
+                      value: "apppass"
+                    - name: MYSQL_ROOT_PASSWORD
+                      value: "rootpass"
+                    - name: MYSQL_USER
+                      value: "appuser"
+                  livenessProbe:
+                    exec:
+                        command: [mysqladmin ping -h localhost -u root -prootpass]
+                    periodSeconds: 5
+                    timeoutSeconds: 5
+                    failureThreshold: 10
+                  ports:
+                    - name: db-3306
+                      containerPort: 3306
+                    - name: db-33060
+                      containerPort: 33060
+                  volumeMounts:
+                    - name: var-lib-mysql
+                      mountPath: /var/lib/mysql
+                    - name: docker-entrypoint-initdb-d-init-sql
+                      mountPath: /docker-entrypoint-initdb.d/init.sql
+            volumes:
+                - name: var-lib-mysql
+                  persistentVolumeClaim:
+                    claimName: db-db-data
+                - name: docker-entrypoint-initdb-d-init-sql
+                  hostPath:
+                    path: C:\xampp\htdocs\course-enrollment\init.sql
